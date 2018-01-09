@@ -17031,7 +17031,7 @@ Model.prototype = {
     },
 
     setReadOnly: function (properties) {
-        
+
     },
 
     // If path is null/undefined, return null/undefined.
@@ -52662,7 +52662,7 @@ function processOnAxis(axisInfo, newValue, updaters, dontSnap, outputFinder) {
     //         newValue = snapToValue;
     //     }
     // }
-    
+
     // 修改 -Gao
     if (!dontSnap && axisInfo.snap) {
         if (axis.containData(snapToValue) && snapToValue != null) {

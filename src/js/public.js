@@ -1,3 +1,4 @@
+console.log(111)
 // 通过地址获取参数
 function getQueryString(name) {
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");

@@ -4,24 +4,6 @@
     <!-- echarts图形开始 -->
     <div class="box fl echarts">
       <div class="container">
-        <div class="canvas" id="MLine">
-          <div class="no-data" id="noData">亲，暂时没有数据哦~~~~ ^_^</div>
-          <label class="canvasTitle" id="toolContent_M" style="display:none;"><i>2017-10-10 10:00</i>价<i>-</i>量<i>-</i>幅<i>-</i></label>
-          <div id="main1" style="width:840px;height:520px;background-color:#fff;"></div>
-          <div class="vol vol1" style="display:none;">Vol:<i>-</i></div>
-          <label class="quantityRatio">LB:<i id="quantityRatio">0.86</i></label>
-          <label class="quantityRatio">MACD:<i id="quantityRatio">0.86</i></label>
-          <div class="chartsTab" style="display:none;"></div>
-          <div id="toolContent" style="display:none;">
-            <ul>
-              <li class="fName"></li>
-              <li><span class="dataTime">-</span></li>
-              <li>价格 <span class="dataPrice"></span></li>
-              <li>涨跌 <span class="change"></span></li>
-              <li>成交 <span class="volume"></span></li>
-            </ul>
-          </div>
-        </div>
         <!--K线图开始-->
         <div class="canvas kline" id="kline">
           <div class="no-data no-data-k" id="withoutData">亲，暂时没有数据哦~~~~ ^_^</div>
@@ -68,22 +50,6 @@
               <div class="volumeMax"></div>
               <div class="vol-unit"></div>
             </div>
-            <!-- <div class="macd">
-                <span class="macd-title">MACD</span><span class="macd-Dif">DIF : <em></em></span><span class="macd-Dea">DEA : <em></em></span><span class="macd-Macd">MACD : <em></em></span>
-            </div>
-            <div class="volMacd">
-                <div class="vmMax">3.78</div>
-                <div class="vmMin">1.93</div>
-            </div>
-            <div class="kline-buttons">
-                <span class="active">MACD</span>
-                <span>KDJ</span>
-                <span>RSI</span>
-                <span>BOLL</span>
-                <span>WR</span>
-                <span>DMI</span>
-            </div> -->
-            <!-- </div> -->
 
           </div>
           <!-- echarts图结束 -->
@@ -91,14 +57,21 @@
         <!--K线图结束-->
       </div>
     </div>
-    <div class="box fr cb-right">
-      <div class="no-data no-data-k" id="withoutPKCJData"></div>
-      <!-- 五档盘口 -->
-      <div class="cb-pk"></div>
-      <!-- 逐笔成交 -->
-      <div class="cb-cj"></div>
-    </div>
     <!-- echarts图形结束 -->
   </div>
   <!-- 中部结束 -->
 </template>
+<script>
+  export default{
+    data(){
+      return{
+
+      }
+    },
+    methods: {
+      WebSocketConnect: function(){
+
+      }
+    }
+  }
+</script>
