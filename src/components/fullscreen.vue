@@ -9,17 +9,10 @@
 
   export default{
     data(){
-      return {
-
-      }
+      return {}
     },
     components:{
       comInfo
     }
   }
 </script>
-
-<style>
-  @import "../css/echarts.css";
-  @import "../css/detail.css";
-</style>

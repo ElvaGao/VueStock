@@ -25,6 +25,7 @@
     "chalk": "^2.0.1",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.8",
+    "echarts": "^3.8.5",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.6",
     "friendly-errors-webpack-plugin": "^1.6.1",
